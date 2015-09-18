@@ -3,14 +3,9 @@ layout: default
 title: Home
 ---
 
-<header>
-	<h3>
-		Profile
-	</h3>
-</header>
+# Profile 
 
 <div align="justify">
-
 I am a Phd Student in the Insitutue for Risk and Uncertainty in the University
 of Liverpool. I am a graduate of the Masters in Data Science at ITAM (Instituto
 Tecnológico Autónomo de México). I have a Bachelor degree in both Applied
@@ -24,5 +19,4 @@ methods, statistical modelling, data visualization and applied probability.
 Currently, my research lies in the statistical analysis of computationally
 expensive computer codes through stochastic surrogates. My aim is to become an
 active social data scientist to contribute mathematical tools towards society.
-
 </div>

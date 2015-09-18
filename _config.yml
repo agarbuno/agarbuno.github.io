@@ -1,0 +1,30 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Alfredo Garbuno
+tagline:          Alfredo Garbuno
+description:      'Phd Student at the <a href="https://www.liv.ac.uk/risk-and-uncertainty/" target="_blank">University of Liverpool</a>.'
+url:              
+baseurl:          /
+
+author:
+  name:           'Alfredo Garbuno'
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/agarbuno
+
+twitter_username:     AlfredoGarbuno
+github_username:      agarbuno
+linkedin_username:    agarbuno
+google_plus_username: Alfredo.Garbuno
