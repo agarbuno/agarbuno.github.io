@@ -34,6 +34,6 @@ scholar:
   repository: public/pdf
   replace_strings: true
   join_strings: true
-  bibliography_template: bibliography
+  bibliography_template: bib
   sort_by: year
   order: descending
