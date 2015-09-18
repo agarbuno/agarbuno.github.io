@@ -5,6 +5,6 @@ title: Publications and Talks
 
 ### Journal Papers
 
-{% bibliography -f garbuno -T bib%}
+{% bibliography -f garbuno %}
 
 ### Talks
