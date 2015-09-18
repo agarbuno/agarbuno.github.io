@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Publications
+title: Publications and Talks
 ---
 
-### Here is a list of my publications
+### Journal Papers
+
+{% bibliography --file garbuno %}

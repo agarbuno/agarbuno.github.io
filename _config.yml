@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
@@ -28,3 +28,12 @@ twitter_username:     AlfredoGarbuno
 github_username:      agarbuno
 linkedin_username:    agarbuno
 google_plus_username: Alfredo.Garbuno
+
+scholar:
+  style: apa
+  repository: public/pdf
+  replace_strings: true
+  join_strings: true
+  bibliography_template: bibliography
+  sort_by: year
+  order: descending
