@@ -6,4 +6,6 @@ tags: pubs
 
 ### Journal Papers
 
+{% bibliography -f garbuno %}
+
 ### Talks
