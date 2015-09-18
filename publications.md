@@ -5,5 +5,3 @@ tags: pubs
 ---
 
 ### Journal Papers
-
-{% bibliography --file garbuno %}
