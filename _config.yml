@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
@@ -8,7 +8,7 @@ relative_permalinks: true
 
 # Setup
 title:            Alfredo Garbuno
-tagline:          Alfredo Garbuno
+name:			  Alfredo Garbuno
 description:      'Phd Student at the <a href="https://www.liv.ac.uk/risk-and-uncertainty/" target="_blank">University of Liverpool</a>.'
 url:              
 baseurl:          /
