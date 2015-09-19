@@ -3,7 +3,7 @@ layout: page
 title: Publications and Talks
 ---
 
-### Journal Papers
+### Submitted papers
 
 {% bibliography -f garbuno %}
 
