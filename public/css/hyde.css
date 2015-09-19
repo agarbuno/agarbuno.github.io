@@ -124,6 +124,19 @@ a.sidebar-nav-item:focus {
   }
 }
 
+img[alt=photo] {
+    width: 240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img[alt=supp] {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Container
  *
@@ -151,6 +164,122 @@ a.sidebar-nav-item:focus {
   }
 }
 
+
+/* Font and style changes */
+
+img[alt=contact] {
+    height: 14px;
+}
+.float-left {
+    float: left;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+.float-right {
+    float: right;
+    margin-right: 20px;
+    margin-left: 60px;
+}
+.logo {
+    vertical-align: bottom;
+}
+/*.container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+*/
+
+.nav {
+    white-space: nowrap;
+}
+.header > .row {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav, .title {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 120%;
+}
+.title, .subtitle {
+    /*color: #ffffff;*/
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.header {
+    /*padding-left: 20px;*/
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+.header .col-md-6 {
+    padding-left: 0px;
+}
+/*.nav a {
+  color: #fff;
+}
+*/
+
+.nav > li > a {
+    /*border-radius: 3px 3px 0px 0px;*/
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: transparent;
+    /*color: #cccccc;*/
+    padding: 8px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #6699CC;
+    color: #fff;
+}
+.nav > li.active > a, .nav > li.active > a:hover, .nav > li.active > a:focus {
+    background-color: #6699CC;
+    color: #fff;
+}
+
+.nav-pills > li + li {
+    margin-left: 5px;
+}
+.content {
+    background-color: #FFFFFF;
+    color: #2D2D2D;
+    border-radius: 3px;
+    padding: 30px;
+    /*box-shadow: 5px 5px 5px #012;*/
+}
+.footer {
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #999;
+}
+.footer a {
+    color: #F2F0EC;
+}
+.nav-pills > li + li {
+    margin-left: 5px;
+}
+ol.bibliography {
+    padding-left: 1.5em;
+    list-style-type: decimal;
+}
+ol.bibliography > li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+ol.bibliography .nav > li > a {
+    padding-left: 0;
+}
+ol.bibliography .nav-pills > li > a, ol.bibliography .nav-pills > li > a:hover {
+    font-size: small;
+    text-transform: uppercase;
+    font-family: "jaf-facitweb", sans-serif;
+    /*color: #888;*/
+    background-color: transparent;
+}
+ol.bibliography .nav-pills > li > a:hover {
+    color: #235;
+}
 
 /*
  * Reverse layout
