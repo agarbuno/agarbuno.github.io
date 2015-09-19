@@ -9,7 +9,7 @@
 
   <div id="aside">
     {% if entry.supplement %}
-          <img alt="photo" src="{{entry.supplement}}" width ="150" align="right"/>
+          <img alt="supp" src="{{entry.supplement}}" align="right"/>
     {% endif %}
   </div>
 
@@ -31,7 +31,7 @@
 
 
   {% if entry.abstract %}
-  <p id="{{key}}_abstract" class="pre pre-scrollable collapse message" align="justify">{{entry.abstract}}</p>
+  <p id="{{key}}_abstract" class="pre-scrollable collapse message" align="justify">{{entry.abstract}}</p>
   {% endif %}
 
   <pre id="{{key}}_bibtex" class="pre pre-scrollable collapse">{{entry.bibtex}}</pre>
