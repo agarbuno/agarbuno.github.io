@@ -11,3 +11,5 @@ rsync -a -v ../back_site/ .
 git commit -a -m 'Pushing changes'
 rm -rf ../back_site/
 git push origin master
+rm update_pages.sh
+git checkout source
