@@ -14,14 +14,15 @@ Applied Mathematics and Actuarial Sciences. My teaching experience has been in
 undergraduate-level courses in Numerical Methods, as well as a tutor in the
 Statistic’s Department at ITAM. The latter being as a TA in the UK system. More
 recently, I have been a Teaching Assistant in both Engineering and Computer
-Science departments in UoL in object oriented programming and database
-management. I am interested in large scale applications of mathematical models,
-often encountered in numerical optimisation and pattern recognition tasks
-related to machine learning. As a professional I have specialised in numerical
-methods, statistical modelling, data visualisation and applied probability
-models. My current research lies within the domain of non-parametric Bayesian
-Statistics in computer code analysis and the extension of such models for
-Numerical Optimisation and Statistical Learning.
+Science departments in UoL, such as in object oriented programming, MATLAB
+programming for engineers and database management. I am interested in large
+scale applications of mathematical models, often encountered in numerical
+optimisation and pattern recognition tasks related to machine learning. As a
+professional I have specialised in numerical methods, statistical modelling,
+data visualisation and applied probability models. My current research lies
+within the domain of non-parametric Bayesian Statistics in computer code
+analysis and the extension of such models for Numerical Optimisation and
+Statistical Learning.
 
 </div>
 
