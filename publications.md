@@ -9,6 +9,7 @@ title: Publications and Talks
 
 ### Talks  
 
+1. **Bayesian Screening Through Gaussian Processes Hyper-Parameter Sampling**. SAIM-UQ. April, 2016. Swiss Tech Convention Center. (CH).  
 1. **Efficient sampling of Gaussian process hyper-parameters**. 13th International Probabilistic Workshop. November, 2015. University of Liverpool. 
 2. **Crowdflow analysis for tourism-oriented decision-making**. XXIV Week of Applied Mathematics. September, 2014. Instituto Tecnológico Autónomo de México. (MEX)  
 3. **Numerical study of two methods for solving linear complementarity problems**. HP ENOAN. April,  2014. Centro de investigación en Matemáticas. (MEX)  

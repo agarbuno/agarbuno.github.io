@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: temp
 title: Code
 ---
 
