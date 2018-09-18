@@ -13,14 +13,14 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
-title:            Alfredo Garbuno
+title:      Alfredo Garbuno
 name:			  Alfredo Garbuno
-description:      'Phd Student at the <a href="https://www.liv.ac.uk/risk-and-uncertainty/" target="_blank">University of Liverpool</a>.'
+description:      'Postdoctoral Scholar at <a href="http://www.caltech.edu/" target="_blank">Caltech</a>.'
 url:              
 baseurl:          /
 
 author:
-  name:           'Alfredo Garbuno'
+  name:     'Alfredo Garbuno'
 
 paginate:         5
 

@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-## Profile 
+## Profile (*update coming soon...*)
 
 <div align="justify">
 
@@ -28,14 +28,12 @@ Statistical Learning.
 
 ## Contact
 
-agarbuno [at] liverpool.ac.uk
+agarbuno [at] caltech (dot) edu
 
-Institute for Risk and Uncertainty  
-School of Engineering  
-University of Liverpool  
-Brownlow Hill  
-Liverpool  
-L69 7ZX  
+Computing + Mathematical Sciences  
+Geologial and Planetary Systems  
+[California Institute of Technology](http://www.caltech.edu/)  
+Pasadena, California
 
 ## About this site
 
