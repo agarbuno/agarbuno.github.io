@@ -3,26 +3,40 @@ layout: default
 title: Home
 ---
 
-## Profile (*update coming soon...*)
+## Profile
 
 <div align="justify">
 
-Currently I am a Phd Student in the Insitutue for Risk and Uncertainty at the
-University of Liverpool. I obtained my Masters in Data Science at ITAM
+Currently I am a postdoctoral scholar at California Institute of Technology
+(Caltech), in a joint research project between the departments of Computing +
+Mathematical Sciences (CMS), and the Geophysical and Planetary Systems (GPS). My
+research focuses on Uncertainty Quantification for complex simulators as the
+ones encountered in climate modeling and engineering applications. My research
+interests gravitate around Bayesian inverse problems, stochastic processes,
+numerical analysis, and both stochastic and deterministic partial differential
+equations. I am also interested in large scale applications of mathematical
+models, often encountered in numerical optimisation and pattern recognition
+tasks as in machine learning. As a professional, I have specialised in numerical
+methods, statistical modelling, data visualisation and applied probability
+models.
+
+</div>
+
+<div align="justify"></div>
+
+### Academic Background
+
+<div align="justify">
+
+I received my PhD from the University of Liverpool while doing research at the
+Institute for Risk and Uncertainty + School of Engineering. My dissertation
+focused on non-parametric Bayesian Statistics in computer code analysis driven by Gaussian processes, Bayesian inference and automatic calibration. I obtained my Masters in Data Science at ITAM
 (Instituto Tecnológico Autónomo de México). I have a Bachelor degree in both
 Applied Mathematics and Actuarial Sciences. My teaching experience has been in
 undergraduate-level courses in Numerical Methods, as well as a tutor in the
-Statistic’s Department at ITAM. The latter being as a TA in the UK system. More
-recently, I have been a Teaching Assistant in both Engineering and Computer
+Statistic’s Department at ITAM. The latter being as a TA in the UK system. I have been a Teaching Assistant in both Engineering and Computer
 Science departments in UoL, such as in object oriented programming, MATLAB
-programming for engineers and database management. I am interested in large
-scale applications of mathematical models, often encountered in numerical
-optimisation and pattern recognition tasks related to machine learning. As a
-professional I have specialised in numerical methods, statistical modelling,
-data visualisation and applied probability models. My current research lies
-within the domain of non-parametric Bayesian Statistics in computer code
-analysis and the extension of such models for Numerical Optimisation and
-Statistical Learning.
+programming for engineers and database management.
 
 </div>
 
