@@ -8,17 +8,17 @@ title: Home
 <div align="justify">
 
 Currently I am a postdoctoral scholar at California Institute of Technology
-(Caltech), in a joint research project between the departments of Computing +
-Mathematical Sciences (CMS), and the Geophysical and Planetary Systems (GPS). My
-research focuses on Uncertainty Quantification for complex simulators as the
-ones encountered in climate modeling and engineering applications. My research
-interests gravitate around Bayesian inverse problems, stochastic processes,
-numerical analysis, and both stochastic and deterministic partial differential
-equations. I am also interested in large scale applications of mathematical
-models, often encountered in numerical optimisation and pattern recognition
-tasks as in machine learning. As a professional, I have specialised in numerical
-methods, statistical modelling, data visualisation and applied probability
-models.
+(Caltech), in a joint research project between the Department of Computing +
+Mathematical Sciences (CMS), and the Division of Geological and Planetary
+Systems (GPS). My research focuses on Uncertainty Quantification for complex
+simulators as the ones encountered in climate modeling and engineering
+applications. My research interests gravitate around Bayesian inverse problems,
+stochastic processes, numerical analysis, and both stochastic and deterministic
+partial differential equations. I am also interested in large scale applications
+of mathematical models, often encountered in numerical optimisation and pattern
+recognition tasks as in machine learning. As a professional, I have specialised
+in numerical methods, statistical modelling, data visualisation and applied
+probability models.
 
 </div>
 
