@@ -3,7 +3,7 @@ layout: page
 title: Publications and Talks
 ---
 
-### Refereed papers
+### Peer-reviewed
 
 {% bibliography -f garbuno %}
 

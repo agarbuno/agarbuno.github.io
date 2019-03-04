@@ -1,4 +1,13 @@
 
+@phdthesis{Garbuno2018, 
+Author={{A. Garbuno-Inigo}},
+Title={{Stochastic Methods for Emulation, Calibration and Reliability Analysis of Engineering Models }}, 
+school= {University of Liverpool},
+year = 2018, 
+abstract = {This dissertation examines the use of non-parametric Bayesian methods and advanced Monte Carlo algorithms for the emulation and reliability analysis of complex engineering computations. Firstly, the problem lies in the reduction of the computational cost of such models and the generation of posterior samples for the Gaussian Process’ (GP) hyperparameters. In a GP, as the flexibility of the mechanism to induce correlations among training points increases, the number of hyperparameters increases as well. This leads to multimodal posterior distributions. Typical variants of MCMC samplers are not designed to overcome multimodality. Maximum posterior estimates of hyperparameters, on the other hand, do not guarantee a global optimiser. This presents a challenge when emulating expensive simulators in light of small data. Thus, new MCMC algorithms are presented which allow the use of full Bayesian emulators by sampling from their respective multimodal posteriors. Secondly, in order for these complex models to be reliable, they need to be robustly calibrated to experimental data. History matching solves the calibration problem by discarding regions of input parameters space. This allows one to determine which configurations are likely to replicate the observed data. In particular, the GP surrogate model’s probabilistic statements are exploited, and the data assimilation process is improved. Thirdly, as sampling- based methods are increasingly being used in engineering, variants of sampling algorithms in other engineering tasks are studied, that is reliability-based methods. Several new algorithms to solve these three fundamental problems are proposed, developed and tested in both illustrative examples and industrial-scale models.}, 
+Url = {https://livrepository.liverpool.ac.uk/3026757/}, 
+Supplement = {../public/img/04.png} }
+
 @Article{Garbuno2016,
   Title                    = {{Transitional annealed adaptive slice sampling for Gaussian process hyper-parameter estimation}},
   Author                   = {Garbuno-Inigo, Alfredo and DiazDelaO, F.~A. and Zuev, K.~M.},
