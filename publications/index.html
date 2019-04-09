@@ -150,7 +150,53 @@
   <h1 class="page-title">Publications and Talks</h1>
   <h3 id="drafts">Drafts</h3>
 
-<ol class="bibliography"><li><span id="Garbuno2019a">Garbuno-Inigo, A., DiazDelaO, F. A., &amp; Zuev, K. M. Probabilistic and active learning extensions to history matching. <i>In Preparation</i>.</span>
+<ol class="bibliography"><li><span id="Garbuno2019">Garbuno-Inigo, A., Hoffmann, F., Li, W., &amp; Stuart, A. M. Gradient Structure Of The Ensemble Kalman Flow With Noise. <i>Under Review</i>. Retrieved from https://arxiv.org/pdf/1903.08866.pdf</span>
+
+
+<span id="Garbuno2019_materials">
+
+  <ul class="nav nav-pills">
+
+  <div id="aside">
+    
+          <img alt="supp" src="../public/img/numerics00.png" align="right" />
+    
+  </div>
+
+    
+    <li><a class="bib-materials" data-target="#Garbuno2019_abstract" data-toggle="collapse" href="#Garbuno2019" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#Garbuno2019_bibtex" data-toggle="collapse" href="#Garbuno2019" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'Garbuno2019']); return false;">BibTex</a></li>
+
+    
+
+    
+    <li><a class="bib-materials" href="https://arxiv.org/pdf/1903.08866.pdf">Web</a></li>
+    
+
+    <!--
+    -->
+
+  </ul>
+
+
+  
+  <p id="Garbuno2019_abstract" class="pre-scrollable collapse message" align="justify">Solving inverse problems without the use of derivatives or adjoints of the forward model is highly desirable in many applications arising in science and engineering. In this paper we study a number of variants on Ensemble Kalman Inversion (EKI) algorithms, with goal being the construction of methods which generate approximate samples from the Bayesian posterior distribution that solves the inverse problem. Furthermore we establish a mathematical framework within which to study this question. Our starting point is the continuous time limit of EKI. We introduce a specific form of additive noise to the deterministic flow, leading to a stochastic differential equation (SDE), and consider an associated SDE which approximates the original SDE by replacing function evaluation differences with exact gradients. We demonstrate that the nonlinear Fokker-Planck equation defined by the mean-field limit of the associated SDE has a novel gradient flow structure, built on the Wasserstein metric and the covariance matrix of the noisy flow. Using this structure, we investigate large time properties of the SDE in the case of a linear observation map, and convergence to an invariant measure which coincides with the Bayesian posterior distribution for the underlying inverse problem. We numerically study the effect of the noisy perturbation of the original derivative-free EKI algorithm, illustrating that it gives good approximate samples from the posterior distribution. </p>
+  
+
+  <pre id="Garbuno2019_bibtex" class="pre pre-scrollable collapse">@article{Garbuno2019,
+  title = {{Gradient Structure Of The Ensemble Kalman Flow With Noise}},
+  author = {Garbuno-Inigo, Alfredo and Hoffmann, Franca and Li, Wuchen and Stuart, Andrew M.},
+  journal = {Under review},
+  supplement = {../public/img/numerics00.png},
+  url = {https://arxiv.org/pdf/1903.08866.pdf}
+}
+</pre>
+
+</span>
+</li>
+<li><span id="Garbuno2019a">Garbuno-Inigo, A., DiazDelaO, F. A., &amp; Zuev, K. M. Probabilistic implausibility and active learning for history matching. <i>Under Review</i>.</span>
 
 
 <span id="Garbuno2019a_materials">
@@ -182,13 +228,13 @@
 
 
   
-  <p id="Garbuno2019a_abstract" class="pre-scrollable collapse message" align="justify">To be disclosed</p>
+  <p id="Garbuno2019a_abstract" class="pre-scrollable collapse message" align="justify">The scientific understanding of real-world processes has improved over the years through computer simulations. Such simulators represent complex mathematical models that are implemented as computer codes which are often expensive. The validity of using a particular simulator to draw accurate conclusions relies on the assumption that the computer code is correctly calibrated. This calibration procedure is often pursued under extensive experimentation and comparison with data from a real-world process. The problem is that the data collection may be so expensive that only a handful of experiments are feasible. History matching is a calibration technique that, given a simulator, it iteratively discards regions of the input space using an implausibility measure. When the simulator is computationally expensive, an emulator is used to explore the input space. In this paper, a Gaussian process provides a complete probabilistic output that is incorporated into the implausibility measure. The result of this strategy is a probabilistic implausibility characterisation. The identification of regions of interest is accomplished with recently developed annealing sampling techniques. Active learning functions are incorporated into the history matching procedure to refocus on the input space and improve the emulator. The efficiency of the proposed framework is tested in well-known examples from the history matching literature, as well as in a proposed testbed of functions of higher dimensions. </p>
   
 
   <pre id="Garbuno2019a_bibtex" class="pre pre-scrollable collapse">@article{Garbuno2019a,
-  title = {{Probabilistic and active learning extensions to history matching}},
+  title = {{Probabilistic implausibility and active learning for history matching}},
   author = {Garbuno-Inigo, Alfredo and DiazDelaO, F.~A. and Zuev, K.~M.},
-  journal = {In preparation},
+  journal = {Under review},
   supplement = {../public/img/hm.png},
   url = {}
 }
