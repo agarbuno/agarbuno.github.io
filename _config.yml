@@ -22,7 +22,9 @@ baseurl:          /
 author:
   name:     'Alfredo Garbuno'
 
-paginate:         5
+#plugins: 
+#  - jekyll-paginate
+#paginate:         5
 
 # Custom vars
 version:          2.1.0
