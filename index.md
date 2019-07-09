@@ -11,11 +11,11 @@ Currently I am a postdoctoral scholar at the California Institute of Technology
 (Caltech). I am working in a joint research project between the Department of
 Computing + Mathematical Sciences (CMS), and the Division of Geological and
 Planetary Sciences (GPS).  The broader project is within the Climate Modeling
-Alliance [(CliMA)](https://clima.caltech.edu/). I am contributing towards Data
-Assimilation and Uncertainty Quantification for complex simulators as the ones
-encountered in climate modeling and broad engineering applications. My research
-interests gravitate around Bayesian inverse problems, nonparametric inference,
-stochastic processes, and numerical analysis.
+Alliance <a href="https://clima.caltech.edu/">(CliMA)</a>. I am contributing
+towards Data Assimilation and Uncertainty Quantification for complex simulators
+as the ones encountered in climate modeling and broad engineering applications.
+My research interests gravitate around Bayesian inverse problems, nonparametric
+inference, stochastic processes, and numerical analysis.
 
 <!---I am driven by large scale applications of mathematical models, often
 encountered in numerical optimisation and pattern recognition tasks as in
