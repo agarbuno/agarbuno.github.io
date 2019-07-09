@@ -49,7 +49,7 @@ programming, MATLAB programming for engineers and database management.
 agarbuno [at] caltech (dot) edu
 
 Computing + Mathematical Sciences  
-Geological and Planetary Sciences
+Geological and Planetary Sciences  
 [California Institute of Technology](http://www.caltech.edu/)  
 Pasadena, California
 
