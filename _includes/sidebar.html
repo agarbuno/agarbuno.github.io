@@ -3,15 +3,17 @@
     <div class="sidebar-about">
       <h1>
         <a href="{{ site.baseurl }}">
-          {{ site.title }}
+          <p style="text-align:center;">{{ site.title }}</p>
         </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead" style="text-align:center;">{{ site.description }}</p>
       <img alt="photo" src="{{site.baseurl}}public/img/photo.jpg" width ="20%"/>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}" style="text-align:center;">
+          Home
+      </a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -22,12 +24,16 @@
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}" style="text-align:center;">
+                 {{ node.title }}
+            </a>
           {% endif %}
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}" style="text-align:center;">
+           GitHub
+      </a>
 
       <div id="media-logos">
 
@@ -36,7 +42,7 @@
         {% if site.github_username %}
           <li>
             <a href="https://github.com/{{ site.github_username }}">
-              <i class="fa fa-github fa-2x"></i>  
+              <i class="fa fa-github fa-2x"></i>
             </a>
           </li>
         {% endif %}
@@ -44,7 +50,7 @@
         {% if site.twitter_username %}
           <li>
             <a href="https://twitter.com/{{ site.twitter_username }}">
-              <i class="fa fa-twitter fa-2x"></i>  
+              <i class="fa fa-twitter fa-2x"></i>
             </a>
           </li>
         {% endif %}
@@ -52,22 +58,14 @@
         {% if site.linkedin_username %}
           <li>
             <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
-              <i class="fa fa-linkedin fa-2x"></i>  
-            </a>
-          </li>
-        {% endif %}
-
-        {% if site.google_plus_username %}
-          <li>
-            <a href="https://plus.google.com/+{{ site.google_plus_username }}/posts">
-              <i class="fa fa-google-plus fa-2x"></i>  
+              <i class="fa fa-linkedin fa-2x"></i>
             </a>
           </li>
         {% endif %}
 
       </ul>
 
-      </div> 
+      </div>
 
     </nav>
 

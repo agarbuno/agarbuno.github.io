@@ -46,12 +46,11 @@ programming, MATLAB programming for engineers and database management.
 
 ## Contact
 
-agarbuno [at] caltech (dot) edu
+alfredo {dot} garbuno [at] itam (dot) mx
 
-Computing + Mathematical Sciences  
-Geological and Planetary Sciences  
-[California Institute of Technology](http://www.caltech.edu/)  
-Pasadena, California
+Department of Statistics  
+[Instituto Tecnologico Autonomo de Mexico](https://www.itam.mx/)  
+Mexico City, Mexico
 
 ## About this site
 

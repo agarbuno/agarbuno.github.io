@@ -13,16 +13,16 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
-title:      Alfredo Garbuno
-name:			  Alfredo Garbuno
-description:      'Postdoctoral Scholar at <a href="http://www.caltech.edu/" target="_blank">Caltech</a>.'
-url:              
-baseurl:          /
+title:        Alfredo Garbuno Iñigo
+name:		  Alfredo Garbuno Iñigo
+description: 'Assistant Professor at <a href="http://www.itam.mx/" target="_blank">ITAM</a>.'
+url:
+baseurl:     /
 
 author:
-  name:     'Alfredo Garbuno'
+  name:     'Alfredo Garbuno Iñigo'
 
-#plugins: 
+#plugins:
 #  - jekyll-paginate
 #paginate:         5
 
