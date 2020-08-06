@@ -3,13 +3,19 @@ layout: page
 title: Publications and talks
 ---
 
+<hr>
+
 ### Drafts
 
 {% bibliography -f drafts %}
 
+<hr>
+
 ### Peer-reviewed
 
 {% bibliography -f garbuno %}
+
+<hr>
 
 ### Talks  
 
