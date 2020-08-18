@@ -38,7 +38,8 @@ focused on non-parametric Bayesian Statistics in computer code analysis driven
 by Gaussian processes, Bayesian inference and automatic calibration. I obtained
 my Masters in Data Science at ITAM (Instituto Tecnológico Autónomo de México). I
 have a Bachelor degree in both Applied Mathematics and Actuarial Sciences.
-To learn about my teaching experience please visit [here](http://agarbuno.github.io/teaching/).
+To learn about my teaching experience please visit
+[here](https://agarbuno.github.io/teaching/).
 
 </div>
 
