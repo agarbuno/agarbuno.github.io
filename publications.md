@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications and talks
+title: Publications and Talks
 ---
 
 <hr>
