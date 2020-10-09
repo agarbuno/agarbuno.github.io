@@ -7,15 +7,16 @@ title: Home
 
 <div align="justify">
 
-Currently I am an assistant professor at Instituto Tecnológico Autónomo de
-México (ITAM). I teach courses for the Department of Statistics and the masters
-programme in Data Science at ITAM. I collaborate on the project of the Climate
-Modeling Alliance <a href="https://clima.caltech.edu/">(CliMA)</a>, in which I
-am contributing towards Data Assimilation and Uncertainty Quantification for
-complex simulators as the ones encountered in climate modeling and broad
-engineering applications. My research interests gravitate around Bayesian
-inverse problems, nonparametric inference, stochastic processes, and numerical
-analysis.
+Currently I am an <a
+href="https://faculty.itam.mx/facultad/108727-alfredo-garbuno-inigo">assistant
+professor</a> at Instituto Tecnológico Autónomo de México (ITAM). I teach
+courses for the Department of Statistics and the masters programme in Data
+Science at ITAM. I collaborate on the project of the Climate Modeling Alliance
+<a href="https://clima.caltech.edu/">(CliMA)</a>, in which I am contributing
+towards Data Assimilation and Uncertainty Quantification for complex simulators
+as the ones encountered in climate modeling and broad engineering applications.
+My research interests gravitate around Bayesian inverse problems, nonparametric
+inference, stochastic processes, and numerical analysis.
 
 <!---I am driven by large scale applications of mathematical models, often
 encountered in numerical optimisation and pattern recognition tasks as in
@@ -48,7 +49,7 @@ To learn about my teaching experience please visit <a href="https://agarbuno.git
 
 alfredo {dot} garbuno [at] itam (dot) mx
 
-Department of Statistics  
+[Department of Statistics](http://estadistica.itam.mx/es/1/paginas/acerca-del-departamento-3)
 [Instituto Tecnologico Autonomo de Mexico](https://www.itam.mx/)  
 Mexico City, Mexico
 
