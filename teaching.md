@@ -5,10 +5,16 @@ title: Teaching
 
 <hr>
 
+### Upcoming courses:  
+- **Statistical Learning Theory**. Ba in Applied Mathematics. ITAM.
+- **Advanced Bayesian Modeling**. Course co-developed with
+[Felipe Gonzalez](https://github.com/felipegonzalez). Msc in Data Science. ITAM.
+
+
 ### Current courses:
 - **Foundations of Statistics with Resampling**.  Course co-developed with
-[tereom](https://github.com/tereom) and
-[felipegonzalez](https://github.com/felipegonzalez). Master programme in Data Science.
+[Teresa Ortiz](https://github.com/tereom) and
+[Felipe Gonzalez](https://github.com/felipegonzalez). Msc in Data Science.
 Lecture notes are available [here (in Spanish)](https://fundamentos-est.netlify.app/).
 
 
