@@ -159,53 +159,7 @@
 
 <h3 id="drafts">Drafts</h3>
 
-<ol class="bibliography"><li><span id="Garbuno2019">Garbuno-Inigo, A., Hoffmann, F., Li, W., &amp; Stuart, A. M. Gradient Structure Of The Ensemble Kalman Flow With Noise. <i>Under Review</i>. https://arxiv.org/pdf/1903.08866.pdf</span>
-
-
-<span id="Garbuno2019_materials">
-
-  <ul class="nav nav-pills">
-
-  <div id="aside">
-    
-          <img alt="supp" src="../public/img/numerics00.png" align="right" />
-    
-  </div>
-
-    
-    <li><a class="bib-materials" data-target="#Garbuno2019_abstract" data-toggle="collapse" href="#Garbuno2019" onclick="return false">Abstract</a></li>
-    
-
-    <li><a class="bib-materials" data-target="#Garbuno2019_bibtex" data-toggle="collapse" href="#Garbuno2019" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'Garbuno2019']); return false;">BibTex</a></li>
-
-    
-
-    
-    <li><a class="bib-materials" href="https://arxiv.org/pdf/1903.08866.pdf">Web</a></li>
-    
-
-    <!--
-    -->
-
-  </ul>
-
-
-  
-  <p id="Garbuno2019_abstract" class="pre-scrollable collapse message" align="justify">Solving inverse problems without the use of derivatives or adjoints of the forward model is highly desirable in many applications arising in science and engineering. In this paper we study a number of variants on Ensemble Kalman Inversion (EKI) algorithms, with goal being the construction of methods which generate approximate samples from the Bayesian posterior distribution that solves the inverse problem. Furthermore we establish a mathematical framework within which to study this question. Our starting point is the continuous time limit of EKI. We introduce a specific form of additive noise to the deterministic flow, leading to a stochastic differential equation (SDE), and consider an associated SDE which approximates the original SDE by replacing function evaluation differences with exact gradients. We demonstrate that the nonlinear Fokker-Planck equation defined by the mean-field limit of the associated SDE has a novel gradient flow structure, built on the Wasserstein metric and the covariance matrix of the noisy flow. Using this structure, we investigate large time properties of the SDE in the case of a linear observation map, and convergence to an invariant measure which coincides with the Bayesian posterior distribution for the underlying inverse problem. We numerically study the effect of the noisy perturbation of the original derivative-free EKI algorithm, illustrating that it gives good approximate samples from the posterior distribution. </p>
-  
-
-  <pre id="Garbuno2019_bibtex" class="pre pre-scrollable collapse">@article{Garbuno2019,
-  title = {{Gradient Structure Of The Ensemble Kalman Flow With Noise}},
-  author = {Garbuno-Inigo, Alfredo and Hoffmann, Franca and Li, Wuchen and Stuart, Andrew M.},
-  journal = {Under review},
-  supplement = {../public/img/numerics00.png},
-  url = {https://arxiv.org/pdf/1903.08866.pdf}
-}
-</pre>
-
-</span>
-</li>
-<li><span id="Garbuno2019a">Garbuno-Inigo, A., DiazDelaO, F. A., &amp; Zuev, K. M. Probabilistic implausibility and active learning for history matching. <i>Under Review</i>.</span>
+<ol class="bibliography"><li><span id="Garbuno2019a">Garbuno-Inigo, A., DiazDelaO, F. A., &amp; Zuev, K. M. Probabilistic implausibility and active learning for history matching. <i>Under Review</i>.</span>
 
 
 <span id="Garbuno2019a_materials">
@@ -302,7 +256,155 @@
 
 <h3 id="peer-reviewed">Peer-reviewed</h3>
 
-<ol class="bibliography"><li><span id="Garbuno2018">A. Garbuno-Inigo. (2018). <i>Stochastic Methods for Emulation, Calibration and Reliability Analysis of Engineering Models </i>[PhD thesis, University of Liverpool]. https://livrepository.liverpool.ac.uk/3026757/</span>
+<ol class="bibliography"><li><span id="garbuno2021ces">Cleary, E., Garbuno-Inigo, A., Lan, S., Schneider, T., &amp; Stuart, A. M. (2021). Calibrate, emulate, sample. <i>Journal of Computational Physics</i>, <i>424</i>. https://doi.org/10.1016/j.jcp.2020.109716</span>
+
+
+<span id="garbuno2021ces_materials">
+
+  <ul class="nav nav-pills">
+
+  <div id="aside">
+    
+          <img alt="supp" src="../public/img/ces-fmk.png" align="right" />
+    
+  </div>
+
+    
+    <li><a class="bib-materials" data-target="#garbuno2021ces_abstract" data-toggle="collapse" href="#garbuno2021ces" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#garbuno2021ces_bibtex" data-toggle="collapse" href="#garbuno2021ces" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'garbuno2021ces']); return false;">BibTex</a></li>
+
+    
+
+    
+    <li><a class="bib-materials" href="https://doi.org/10.1016/j.jcp.2020.109716">Web</a></li>
+    
+
+    <!--
+    -->
+
+  </ul>
+
+
+  
+  <p id="garbuno2021ces_abstract" class="pre-scrollable collapse message" align="justify">Many parameter estimation problems arising in applications can be cast in the framework of Bayesian inversion. This allows not only for an estimate of the parameters, but also for the quantification of uncertainties in the estimates. Often in such problems the parameter-to-data map is very expensive to evaluate, and computing derivatives of the map, or derivative-adjoints, may not be feasible. Additionally, in many applications only noisy evaluations of the map may be available. We propose an approach to Bayesian inversion in such settings that builds on the derivative-free optimization capabilities of ensemble Kalman inversion methods. The overarching approach is to first use ensemble Kalman sampling (EKS) to calibrate the unknown parameters to fit the data; second, to use the output of the EKS to emulate the parameter-to-data map; third, to sample from an approximate Bayesian posterior distribution in which the parameter-to-data map is replaced by its emulator. This results in a principled approach to approximate Bayesian inference that requires only a small number of evaluations of the (possibly noisy approximation of the) parameter-to-data map. It does not require derivatives of this map, but instead leverages the documented power of ensemble Kalman methods. Furthermore, the EKS has the desirable property that it evolves the parameter ensemble towards the regions in which the bulk of the parameter posterior mass is located, thereby locating them well for the emulation phase of the methodology. In essence, the EKS methodology provides a cheap solution to the design problem of where to place points in parameter space to efficiently train an emulator of the parameter-to-data map for the purposes of Bayesian inversion.</p>
+  
+
+  <pre id="garbuno2021ces_bibtex" class="pre pre-scrollable collapse">@article{garbuno2021ces,
+  title = {Calibrate, emulate, sample},
+  author = {Cleary, Emmet and Garbuno-Inigo, Alfredo and Lan, Shiwei and Schneider, Tapio and Stuart, Andrew M},
+  journal = {Journal of Computational Physics},
+  volume = {424},
+  year = {2021},
+  publisher = {Elsevier},
+  supplement = {../public/img/ces-fmk.png},
+  url = {https://doi.org/10.1016/j.jcp.2020.109716}
+}
+</pre>
+
+</span>
+</li>
+<li><span id="garbuno2020affine">Garbuno-Inigo, A., Nüsken, N., &amp; Reich, S. (2020). Affine invariant interacting Langevin dynamics for Bayesian inference. <i>SIAM Journal on Applied Dynamical Systems</i>, <i>19</i>(3), 1633–1658. https://epubs.siam.org/doi/abs/10.1137/19M1304891</span>
+
+
+<span id="garbuno2020affine_materials">
+
+  <ul class="nav nav-pills">
+
+  <div id="aside">
+    
+  </div>
+
+    
+    <li><a class="bib-materials" data-target="#garbuno2020affine_abstract" data-toggle="collapse" href="#garbuno2020affine" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#garbuno2020affine_bibtex" data-toggle="collapse" href="#garbuno2020affine" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'garbuno2020affine']); return false;">BibTex</a></li>
+
+    
+
+    
+    <li><a class="bib-materials" href="https://epubs.siam.org/doi/abs/10.1137/19M1304891">Web</a></li>
+    
+
+    <!--
+    -->
+
+  </ul>
+
+
+  
+  <p id="garbuno2020affine_abstract" class="pre-scrollable collapse message" align="justify">We propose a computational method (with acronym ALDI) for sampling from a given target distribution based on first-order (overdamped) Langevin dynamics which satisfies the property of affine invariance. The central idea of ALDI is to run an ensemble of particles with their empirical covariance serving as a preconditioner for their underlying Langevin dynamics. ALDI does not require taking the inverse or square root of the empirical covariance matrix, which enables application to high-dimensional sampling problems. The theoretical properties of ALDI are studied in terms of nondegeneracy and ergodicity. Furthermore, we study its connections to diffusion on Riemannian manifolds and Wasserstein gradient flows. Bayesian inference serves as a main application area for ALDI. In case of a forward problem with additive Gaussian measurement errors, ALDI allows for a gradient-free approximation in the spirit of the ensemble Kalman filter. A computational comparison between gradient-free and gradient-based ALDI is provided for a PDE constrained Bayesian inverse problem.</p>
+  
+
+  <pre id="garbuno2020affine_bibtex" class="pre pre-scrollable collapse">@article{garbuno2020affine,
+  title = {Affine invariant interacting Langevin dynamics for Bayesian inference},
+  author = {Garbuno-Inigo, Alfredo and Nüsken, Nikolas and Reich, Sebastian},
+  journal = {SIAM Journal on Applied Dynamical Systems},
+  volume = {19},
+  number = {3},
+  pages = {1633--1658},
+  year = {2020},
+  publisher = {SIAM},
+  url = {https://epubs.siam.org/doi/abs/10.1137/19M1304891}
+}
+</pre>
+
+</span>
+</li>
+<li><span id="garbuno2020interacting">Garbuno-Inigo, A., Hoffmann, F., Li, W., &amp; Stuart, A. M. (2020). Interacting Langevin diffusions: Gradient structure and ensemble Kalman sampler. <i>SIAM Journal on Applied Dynamical Systems</i>, <i>19</i>(1), 412–441. https://epubs.siam.org/doi/abs/10.1137/19M1251655</span>
+
+
+<span id="garbuno2020interacting_materials">
+
+  <ul class="nav nav-pills">
+
+  <div id="aside">
+    
+          <img alt="supp" src="../public/img/numerics00.png" align="right" />
+    
+  </div>
+
+    
+    <li><a class="bib-materials" data-target="#garbuno2020interacting_abstract" data-toggle="collapse" href="#garbuno2020interacting" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#garbuno2020interacting_bibtex" data-toggle="collapse" href="#garbuno2020interacting" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'garbuno2020interacting']); return false;">BibTex</a></li>
+
+    
+
+    
+    <li><a class="bib-materials" href="https://epubs.siam.org/doi/abs/10.1137/19M1251655">Web</a></li>
+    
+
+    <!--
+    -->
+
+  </ul>
+
+
+  
+  <p id="garbuno2020interacting_abstract" class="pre-scrollable collapse message" align="justify">Solving inverse problems without the use of derivatives or adjoints of the forward model is highly desirable in many applications arising in science and engineering. In this paper we propose a new version of such a methodology, a framework for its analysis, and numerical evidence of the practicality of the method proposed. Our starting point is an ensemble of overdamped Langevin diffusions which interact through a single preconditioner computed as the empirical ensemble covariance. We demonstrate that the nonlinear Fokker–Planck equation arising from the mean-field limit of the associated stochastic differential equation (SDE) has a novel gradient flow structure, built on the Wasserstein metric and the covariance matrix of the noisy flow. Using this structure, we investigate large time properties of the Fokker–Planck equation, showing that its invariant measure coincides with that of a single Langevin diffusion, and demonstrating exponential convergence to the invariant measure in a number of settings. We introduce a new noisy variant on ensemble Kalman inversion (EKI) algorithms found from the original SDE by replacing exact gradients with ensemble differences; this defines the ensemble Kalman sampler (EKS). Numerical results are presented which demonstrate its efficacy as a derivative-free approximate sampler for the Bayesian posterior arising from inverse problems.</p>
+  
+
+  <pre id="garbuno2020interacting_bibtex" class="pre pre-scrollable collapse">@article{garbuno2020interacting,
+  title = {Interacting Langevin diffusions: Gradient structure and ensemble Kalman sampler},
+  author = {Garbuno-Inigo, Alfredo and Hoffmann, Franca and Li, Wuchen and Stuart, Andrew M},
+  journal = {SIAM Journal on Applied Dynamical Systems},
+  volume = {19},
+  number = {1},
+  pages = {412--441},
+  year = {2020},
+  publisher = {SIAM},
+  supplement = {../public/img/numerics00.png},
+  url = {https://epubs.siam.org/doi/abs/10.1137/19M1251655}
+}
+</pre>
+
+</span>
+</li>
+<li><span id="Garbuno2018">A. Garbuno-Inigo. (2018). <i>Stochastic Methods for Emulation, Calibration and Reliability Analysis of Engineering Models </i>[PhD thesis, University of Liverpool]. https://livrepository.liverpool.ac.uk/3026757/</span>
 
 
 <span id="Garbuno2018_materials">
