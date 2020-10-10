@@ -12,7 +12,7 @@ title: Teaching
 
 
 ### Current courses:
-- **Foundations of Statistics with Resampling**.  Course co-developed with
+- **Foundations of Statistics with Resampling**. Course co-developed with
 [Teresa Ortiz](https://github.com/tereom) and
 [Felipe Gonzalez](https://github.com/felipegonzalez). Msc in Data Science.
 Lecture notes are available [here (in Spanish)](https://fundamentos-est.netlify.app/).
