@@ -8,6 +8,9 @@ gems: [citeproc]
 gems: [csl/styles]
 gems: [jekyll/scholar]
 
+# Build settings
+remote_theme: fongandrew/hydeout
+
 # Permalinks
 permalink:        pretty
 #relative_permalinks: true
