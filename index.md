@@ -54,7 +54,7 @@ To learn about my teaching experience please visit <a href="https://agarbuno.git
 alfredo {dot} garbuno [at] itam (dot) mx
 
 [Department of Statistics](http://estadistica.itam.mx/es/1/paginas/acerca-del-departamento-3)
-[Instituto Tecnologico Autonomo de Mexico](https://www.itam.mx/)
+[Instituto Tecnologico Autonomo de Mexico](https://www.itam.mx/)    
 Mexico City, Mexico
 
 <hr>
