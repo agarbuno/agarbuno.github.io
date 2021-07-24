@@ -2,8 +2,11 @@
 
 # Builds the site and configures the files
 bundle exec jekyll build
+# Adds images if missing
 git add public/img/*
+# Prepares the commit for origin/source
 git commit -a -m 'Updating site'
+# Makes the push 
 git push origin source
 rm -rf ../back_site
 mkdir ../back_site
