@@ -51,8 +51,6 @@ To learn about my teaching experience please visit <a href="https://agarbuno.git
 
 ## Contact
 
-
-
 alfredo {dot} garbuno [at] itam (dot) mx
 
 [Department of Statistics](http://estadistica.itam.mx/es/1/paginas/acerca-del-departamento-3)<br>
