@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# Builds the site and configures the files
 bundle exec jekyll build
 git add public/img/*
 git commit -a -m 'Updating site'
