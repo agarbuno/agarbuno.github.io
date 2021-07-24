@@ -290,6 +290,3 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-scholar
   jekyll-theme-hydeout (~> 3.4)
-
-BUNDLED WITH
-   1.17.3
