@@ -31,12 +31,6 @@ statistical modelling, data visualisation and applied probability models.--->
 
 <hr>
 
-### NEWS!!! 
-
-**Soon I'll set up a blog in my site. Stay tuned!**
-
-<hr>
-
 ### Academic Background
 
 
@@ -51,6 +45,12 @@ have a Bachelor degree in both Applied Mathematics and Actuarial Sciences.
 To learn about my teaching experience please visit <a href="https://agarbuno.github.io/teaching/">here</a>.
 
 </div>
+
+<hr>
+
+### NEWS!!! 
+
+**Soon I'll set up an academic blog within my site. Stay tuned!**
 
 <hr>
 
