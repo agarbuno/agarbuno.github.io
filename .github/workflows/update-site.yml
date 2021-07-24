@@ -19,7 +19,7 @@ jobs:
     steps: 
       - uses: actions/checkout@v2
         with:
-          ref: source
+          ref: main
       
       - uses: ruby/setup-ruby@v1
         with:
