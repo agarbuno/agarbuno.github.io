@@ -32,6 +32,9 @@ author:
 # Custom vars
 version:          2.1.0
 
+# Keep files during GH-Action
+keep_files: [.git]
+
 github:
   repo:           https://github.com/agarbuno
 
