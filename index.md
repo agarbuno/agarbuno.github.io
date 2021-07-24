@@ -29,6 +29,8 @@ statistical modelling, data visualisation and applied probability models.--->
 
 </div>
 
+**Soon I'll set up a blog in my site. Stay tuned!**
+
 <div align="justify"></div>
 <hr>
 
