@@ -5,4 +5,4 @@ gem 'bootstrap-sass'
 gem 'citeproc-ruby'
 gem 'csl-styles'
 gem 'jekyll-paginate'
-gem "jekyll-theme-hydeout", "~> 3.4"
+gem "jekyll-theme-hydeout", "~> 4.1"
