@@ -8,3 +8,9 @@
 # About 
 
 Source code for my academic website. 
+
+
+# Missing: 
+
+- [ ] Add projects. 
+- [ ] Add blog entries. 
