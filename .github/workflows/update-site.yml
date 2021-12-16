@@ -13,20 +13,16 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This is the job I want to run
-  build-site: 
+  deploy:
     runs-on: ubuntu-latest
-    steps: 
-      - uses: actions/checkout@v2
-        with:
-          ref: main
-      
-      - uses: ruby/setup-ruby@v1
-        with:
-          # Not needed with a .ruby-version file
-          ruby-version: 3.0.2
-          # runs 'bundle install' and caches installed gems automatically
-- name: Enable bundler cache
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.0.2'
+    - name: Enable bundler cache
       uses: actions/cache@v2
       with:
         path: vendor/bundle
