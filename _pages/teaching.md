@@ -2,21 +2,61 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials and syllabus for courses taught (mostly in Spanish).
+description: Teaching materials.
+display_categories: [teaching]
 nav: true
+horizontal: false
 ---
 
-### Current courses:
-- **Foundations of Statistics with Resampling**. Course co-developed with
-[Teresa Ortiz](https://github.com/tereom) and
-[Felipe Gonzalez](https://github.com/felipegonzalez). Msc in Data Science and Msc in Applied Economics.
-Lecture notes are available [here (in Spanish)](https://fundamentos-est-2021.netlify.app/).
 
-<p style="margin-bottom:1cm;"></p>
+<div class="projects">
+  {% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+    {% for category in page.display_categories %}
+      <h2 class="category">{{ category }}</h2>
+      {% assign categorized_projects = site.projects | where: "category", category %}
+      {% assign sorted_projects = categorized_projects | sort: "importance" %}
+      <!-- Generate cards for each project -->
+      {% if page.horizontal %}
+        <div class="container">
+          <div class="row row-cols-2">
+          {% for project in sorted_projects %}
+            {% include projects_horizontal.html %}
+          {% endfor %}
+          </div>
+        </div>
+      {% else %}
+        <div class="grid">
+          {% for project in sorted_projects %}
+            {% include projects.html %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
 
-### Upcoming:
-- **Advanced Bayesian Modeling**. Msc in Data Science. ITAM. Spring 2022.
-- **Statistical Machine Learning**. Ba in Applied Mathematics and Actuarial Sciences. ITAM. Spring 2022.  
+  {% else %}
+  <!-- Display projects without categories -->
+    {% assign sorted_projects = site.projects | sort: "importance" %}
+    <!-- Generate cards for each project -->
+    {% if page.horizontal %}
+      <div class="container">
+        <div class="row row-cols-2">
+        {% for project in sorted_projects %}
+          {% include projects_horizontal.html %}
+        {% endfor %}
+        </div>
+      </div>
+    {% else %}
+      <div class="grid">
+        {% for project in sorted_projects %}
+          {% include projects.html %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+  {% endif %}
+
+</div>
 
 <p style="margin-bottom:1cm;"></p>
 
