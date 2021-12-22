@@ -4,7 +4,7 @@ title: Foundations of Statistics.
 description: Graduate course. 
 img: assets/img/5.jpg
 importance: 1
-category: teaching
+category: fall
 ---
 
 Course co-developed with [Teresa Ortiz](https://github.com/tereom) and

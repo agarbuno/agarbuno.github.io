@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description: Teaching materials.
-display_categories: [teaching]
+display_categories: [fall, spring]
 nav: true
 horizontal: false
 ---
