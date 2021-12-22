@@ -3,7 +3,7 @@ layout: page
 title: Bayesian modeling. 
 description: Graduate course. 
 img: assets/img/4.jpg
-importance: 1
+importance: 2
 category: spring
 ---
 

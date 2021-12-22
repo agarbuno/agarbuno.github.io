@@ -2,11 +2,16 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Teaching materials.
-display_categories: [fall, spring]
+description: Materials on the courses I teach at ITAM. 
+display_categories: [spring, fall]
 nav: true
 horizontal: false
 ---
+
+As part of the Statistics department, I teach introductory and
+advanced level courses for both undergraduate and graduate
+audiences. See the descriptions below for each of the courses to learn
+more.
 
 
 <div class="projects">

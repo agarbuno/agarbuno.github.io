@@ -3,7 +3,7 @@ layout: page
 title: Statistical Learning.
 description: Undergraduate course. 
 img: assets/img/7.jpg
-importance: 1
+importance: 3
 category: spring
 ---
 
