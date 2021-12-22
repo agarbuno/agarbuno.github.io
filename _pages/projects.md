@@ -2,11 +2,19 @@
 layout: page
 title: Research
 permalink: /projects/
-description: Research projects
+description: Interests and projects.
 nav: true
 display_categories: [projects]
 horizontal: false
 ---
+
+My research lies at the intersection of applied mathematics,
+statistics and probability. I am particularly interested in
+understanding and developing methods that can be applied both in
+sciences, engineering and industry that are able to appropriately 
+quantify uncertainty.
+
+
 
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
