@@ -1,19 +1,17 @@
 ---
 layout: page
-title: Research
-permalink: /research/
-description: Interests and projects.
-nav: true
-display_categories: [projects]
+permalink: /courses/
+title: Courses
+description: Materials of the courses I teach at ITAM. 
+display_categories: [spring, fall]
+nav: false
 horizontal: false
-importance: 1
 ---
 
-My research lies at the intersection of applied mathematics,
-statistics and probability. I am particularly interested in
-understanding and developing methods that can be applied both in
-sciences, engineering and industry that are able to appropriately 
-quantify uncertainty.
+As part of the Statistics department, I teach introductory and
+advanced level courses for both undergraduate and graduate
+audiences. See the descriptions below for each of the courses to learn
+more.
 
 
 <div class="projects">
@@ -26,7 +24,7 @@ quantify uncertainty.
       <!-- Generate cards for each project -->
       {% if page.horizontal %}
         <div class="container">
-          <div class="row row-cols-2">
+          <div class="row row-cols-4">
           {% for project in sorted_projects %}
             {% include projects_horizontal.html %}
           {% endfor %}
@@ -64,3 +62,15 @@ quantify uncertainty.
   {% endif %}
 
 </div>
+
+<p style="margin-bottom:1cm;"></p>
+
+### Past courses:
+- **Statistical Learning Theory**. Ba in Applied Mathematics. ITAM. Spring 2021.
+- **Advanced Bayesian Modeling**. Msc in Data Science. ITAM. Spring 2021.
+- **Deep Learning**. Msc in Data Science, Msc in Computer Science and Msc in Applied Economics. ITAM. Spring 2021.
+- **Inverse problems and Data Assimilaiton**. Course co-taught with [Andrew
+  Stuart](http://stuart.caltech.edu/) at Caltech during the fall of 2019.
+  Graduate Course.
+- **Introduction to numerical computing**. Course taught at ITAM during the fall
+  of 2013. Undergraduate course for the bachelor of Applied Mathematics.
