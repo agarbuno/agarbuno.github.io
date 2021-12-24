@@ -1,20 +1,18 @@
 ---
 layout: page
-title: Research
-permalink: /research/
-description: Interests and projects.
-nav: true
-display_categories: [projects]
+permalink: /students/
+title: Students
+description: List of projects with students.
+display_categories: [undergraduates, graduates]
+nav: false
 horizontal: false
-importance: 1
 ---
 
-My research lies at the intersection of applied mathematics,
-statistics and probability. I am particularly interested in
-understanding and developing methods that can be applied both in
-sciences, engineering and industry that are able to appropriately 
-quantify uncertainty.
-
+As part of the Statistics department, I advise research projects for
+students seeking to conclude their academic programs at ITAM. I am
+currently advising undegraduates for the Ba in Applied Mathematics,
+and the Ba in Actuarial Sciences. I am also advising projects for
+students in the Msc in Data Science.
 
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
@@ -64,3 +62,4 @@ quantify uncertainty.
   {% endif %}
 
 </div>
+
