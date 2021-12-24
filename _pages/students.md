@@ -8,7 +8,7 @@ nav: false
 horizontal: false
 ---
 
-As part of the Statistics department I advise research projects for
+As part of the Statistics department, I advise research projects for
 students seeking to conclude their academic programs at ITAM. I am
 currently advising undegraduates for the Ba in Applied Mathematics,
 and the Ba in Actuarial Sciences. I am also advising projects for
