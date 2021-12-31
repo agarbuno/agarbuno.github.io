@@ -3,7 +3,7 @@ layout: page
 title: Active learning under a bayesian and frequentist view.
 description: Msc in Computer Science. 
 importance: 1
-category: graduate
+category: graduates
 ---
 
 In this work an approximate Bayesian approach for Deep Learning is
