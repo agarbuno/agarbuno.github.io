@@ -68,7 +68,14 @@ href="https://agarbuno.github.io/teaching/">here</a>.
 
 ## Contact
 
-alfredo {dot} garbuno [at] itam (dot) mx
+You can contact me through email: alfredo {dot} garbuno [at] itam (dot) mx. 
+
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+Alternatively, you can <!-- Principio del widget de enlace de Calendly -->
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/alfredo-garbuno/entrevistas'});return false;">schedule a meeting</a>
+<!-- Final del widget de enlace de Calendly --> with me. 
 
 
 <hr>
