@@ -11,7 +11,7 @@ importance: 1
 
 My research lies at the intersection of applied mathematics,
 statistics and probability. I am particularly interested in
-understanding and developing methods that can be applied both in
+understanding and developing methods that can be applied in
 sciences, engineering and industry that are able to appropriately 
 quantify uncertainty.
 
