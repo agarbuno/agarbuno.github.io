@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Simulation.
+title: Stochastic Simulation.
 description: Undergraduate course. 
 img: assets/img/9.jpg
 importance: 3
