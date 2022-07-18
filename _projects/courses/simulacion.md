@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Simulación.
+title: Simulation.
 description: Undergraduate course. 
 img: assets/img/9.jpg
 importance: 3
