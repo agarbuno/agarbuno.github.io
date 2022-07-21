@@ -13,12 +13,6 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: . # The folder the action should deploy.
-          branch: docs
-
       # Use GitHub Actions' cache to cache dependencies on servers
       # - name: Cache 🪵
       #   uses: actions/cache@v2
@@ -27,15 +21,21 @@ jobs:
       #     key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
       #     restore-keys: |
       #       ${{ runner.os }}-gems-
-
-      # # Use GitHub Deploy Action to build and deploy to Github
+     
       # - name: Deploy 🚀
-      #   uses: jeffreytse/jekyll-deploy-action@v0.4.0
+      #   uses: JamesIves/github-pages-deploy-action@v4
       #   with:
-      #     provider: 'github'
-      #     repository: ''             # Default is current repository
-      #     branch: 'docs'             # Default is gh-pages for github provider
-      #     jekyll_src: './'           # Default is root directory
+      #     folder: . # The folder the action should deploy.
+      #     branch: docs
+
+      - name: Deploy 🚀
+        uses: jeffreytse/jekyll-deploy-action@v0.4.0
+        with:
+          provider: 'github'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ''             # Default is current repository
+          branch: 'docs'             # Default is gh-pages for github provider
+          # jekyll_src: './'           # Default is root directory
       #     jekyll_cfg: '_config.yml'  # Default is _config.yml
       #     jekyll_baseurl: ''         # Default is according to _config.yml
       #     bundler_ver: '>=0'         # Default is latest bundler version
