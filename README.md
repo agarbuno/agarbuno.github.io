@@ -9,4 +9,5 @@ Source code for my academic website.
 # Missing: 
 
 - [X] Add projects. 
+- [ ] Add students project descriptions.
 - [ ] Add blog entries. 
