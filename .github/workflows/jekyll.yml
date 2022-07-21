@@ -13,6 +13,12 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: . # The folder the action should deploy.
+          branch: docs
+
       # Use GitHub Actions' cache to cache dependencies on servers
       # - name: Cache 🪵
       #   uses: actions/cache@v2
