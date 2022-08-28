@@ -5,7 +5,6 @@
 
 Source code for my academic website. 
 
-
 # Missing: 
 
 - [X] Add projects. 
