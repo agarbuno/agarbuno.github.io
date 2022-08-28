@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Fake news, natural language processing, ensemble models.
+title: Fake news, natural language processing and ensemble models.
 description: Ba in Applied Mathematics. 
 importance: 1
 category: 
