@@ -9,18 +9,18 @@ category:
   authors: 
     - name: Jose Reyes Perez
       affiliations: 
-      name: Data Science
+        name: Data Science
 
-        date: 2022-08-28
+date: 2022-08-28
 
-        toc: 
-          - name: Summary
-            - name: Contributions
+toc: 
+   - name: Summary
+   - name: Contributions
               
               
-              bibliography: projects.bib 
+bibliography: projects.bib 
 
-              img: /assets/img/10.jpg
+img: /assets/img/10.jpg
 
 ---
 
