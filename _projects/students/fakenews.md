@@ -58,9 +58,14 @@ In this work we tested the natural capabilities of transformers-based
 models on classification tasks. Additionally, we tested the feature
 representation of the transformer model (BERT <d-cite
 key="Vaswani2017"></d-cite>) by coupling the encoding layer with
-ensemble models based on decision trees. This is because ensemble-based
-models such as `Random Forests` and `Boosted Machines` are state of
-the art on tabular data.<d-footnote>A publication will surely
+ensemble models based on decision trees. This is because
+ensemble-based models such as `Random Forests` and `Boosted Machines`
+are state of the art on tabular data. As it is naturally an unbalanced
+classification task, more questions arise as we are worried about bias
+towards specific news outlets and the generalization of our predictive 
+models. 
+
+<d-footnote>A publication will surely
 follow.</d-footnote>
 
 > Tags
