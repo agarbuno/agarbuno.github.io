@@ -6,7 +6,7 @@ importance: 1
 category:
   - graduates
 authors:
-  - name: Jose Reyes Perez
+  - name: Jose Reyes Garza
     affiliations: 
       name: Data Science
 
