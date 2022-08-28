@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
   <head>
-    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +10,7 @@
   Alfredo  Garbuno Iñigo
 
 
-  | Fake news and natural language processing.
+  | Fake news, natural language processing, ensemble models.
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -46,7 +44,60 @@
 <script src="/assets/js/dark_mode.js"></script>
 
 
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
   </head>
+
+  <d-front-matter>
+    <script async type="text/json">{
+      "title": "Fake news, natural language processing, ensemble models.",
+      "description": "Ba in Applied Mathematics.",
+      "published": "May 26, 2022",
+      "authors": [
+        
+        {
+          "author": "Tonantzin Real Rojas",
+          "authorURL": "",
+          "affiliations": [
+            {
+              "name": "Applied Mathematics",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
 
   <body class="fixed-top-nav ">
 
@@ -170,26 +221,102 @@
 
     <!-- Content -->
 
-    <div class="container mt-5">
-      <div class="post">
+    <div class="post distill">
 
-  <header class="post-header">
-    <h1 class="post-title">Fake news and natural language processing.</h1>
-    <p class="post-description">Ba in Applied Mathematics.</p>
-  </header>
+      <d-title>
+        <h1>Fake news, natural language processing, ensemble models.</h1>
+        <p>Ba in Applied Mathematics.</p>
+      </d-title>
 
-  <article>
-    <p>In this project, different classification models were built using
+      <d-byline></d-byline>
+
+      <d-article>
+        
+        <d-contents>
+          <nav class="l-text figcaption">
+          <h3>Contents</h3>
+            
+            <div><a href="#summary">Summary</a></div>
+            
+            
+            <div><a href="#contributions">Contributions</a></div>
+            
+            
+          </nav>
+        </d-contents>
+        
+
+        <blockquote>
+  <dl>
+    <dt>Outcome:</dt>
+    <dd>Graduated 2022, special mention.</dd>
+  </dl>
+</blockquote>
+
+<h2 id="summary">Summary</h2>
+
+<p>In this project, different classification models were built using
 machine and deep learning architectures. The classification task was
 done to newspaper articles and social media posts in Spanish whose
 subjects vary but mainly refer to Latin American national politics and
 the current coronavirus crisis. The purpose of the models built was
-detecting when a text constitutes fake, true or misleading news. Due
+to detect when a text constitutes fake, true or misleading news. Due
 to the models’ input, Natural Language Processing was studied.</p>
 
-  </article>
+<div class="row mt-3">
+    <div class="col-sm-1 mt-3 mt-md-0">
+    </div>
+    <div class="col-sm-10 mt-3 mt-md-0">
+        <figure>
 
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/blogimg/fakenews/attention-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/blogimg/fakenews/attention-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/blogimg/fakenews/attention-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/blogimg/fakenews/attention.png" data-zoomable="">
+
+  </picture>
+
+</figure>
+
+        Example of the bidirectional attention mechanism used in BERT. Taken from Tonantzin's dissertation.
+    </div>
+    <div class="col-sm-1 mt-3 mt-md-0">
+    </div>
 </div>
+
+<p><br></p>
+
+<h2 id="contributions">Contributions</h2>
+
+<p>In this work we tested the natural capabilities of transformers-based
+models on classification tasks. Additionally, we tested the feature
+representation of the transformer model (BERT <d-cite key="Vaswani2017"></d-cite>) by coupling the encoding layer with
+ensemble models based on decision trees. This is because
+ensemble-based models such as <code class="language-plaintext highlighter-rouge">Random Forests</code> and <code class="language-plaintext highlighter-rouge">Boosted Machines</code>
+are state of the art on tabular data. As it is naturally an unbalanced
+classification task, more questions arise as we are worried about bias
+towards specific news outlets and the generalization of our predictive 
+models.</p>
+
+<d-footnote>A publication will surely
+follow.</d-footnote>
+
+<blockquote>
+  <dl>
+    <dt>Tags</dt>
+    <dd>Machine learning, natural language processing, transformers,
+ensemble models.</dd>
+  </dl>
+</blockquote>
+
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
 
     </div>
 
@@ -203,7 +330,7 @@ to the models’ input, Natural Language Processing was studied.</p>
 
     
     
-    Last updated: August 27, 2022.
+    Last updated: August 28, 2022.
     
   </div>
 </footer>
@@ -212,49 +339,7 @@ to the models’ input, Natural Language Processing was studied.</p>
 
   </body>
 
-  <!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-
-  <!-- Bootsrap & MDB scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
-
-  
-<!-- Mansory & imagesLoaded -->
-<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
-
-
-  
-
-
-<!-- Medium Zoom JS -->
-<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
-<script src="/assets/js/zoom.js"></script>
-
-
-<!-- Load Common JS -->
-<script src="/assets/js/common.js"></script>
-
-  
-<!-- MathJax -->
-<script type="text/javascript">
-  window.MathJax = {
-    tex: {
-      tags: 'ams'
-    }
-  };
-</script>
-<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
-
-  
-
-
-
-
+  <d-bibliography src="/assets/bibliography/projects.bib">
+  </d-bibliography>
 
 </html>
