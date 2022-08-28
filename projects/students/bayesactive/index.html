@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
   <head>
-    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +10,7 @@
   Alfredo  Garbuno Iñigo
 
 
-  | Active learning under a bayesian and frequentist view.
+  | Active learning under variational inference.
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -46,7 +44,60 @@
 <script src="/assets/js/dark_mode.js"></script>
 
 
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
   </head>
+
+  <d-front-matter>
+    <script async type="text/json">{
+      "title": "Active learning under variational inference.",
+      "description": "Msc in Computer Science.",
+      "published": "June 1, 2019",
+      "authors": [
+        
+        {
+          "author": "Mario Humberto Becerra Contreras",
+          "authorURL": "",
+          "affiliations": [
+            {
+              "name": "Computer Science",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
 
   <body class="fixed-top-nav ">
 
@@ -170,21 +221,69 @@
 
     <!-- Content -->
 
-    <div class="container mt-5">
-      <div class="post">
+    <div class="post distill">
 
-  <header class="post-header">
-    <h1 class="post-title">Active learning under a bayesian and frequentist view.</h1>
-    <p class="post-description">Msc in Computer Science.</p>
-  </header>
+      <d-title>
+        <h1>Active learning under variational inference.</h1>
+        <p>Msc in Computer Science.</p>
+      </d-title>
 
-  <article>
-    <p>In this work an approximate Bayesian approach for Deep Learning is
+      <d-byline></d-byline>
+
+      <d-article>
+        
+        <d-contents>
+          <nav class="l-text figcaption">
+          <h3>Contents</h3>
+            
+            <div><a href="#summary">Summary</a></div>
+            
+            
+            <div><a href="#contributions">Contributions</a></div>
+            
+            
+          </nav>
+        </d-contents>
+        
+
+        <blockquote>
+  <p>Outcome:
+Graduated</p>
+</blockquote>
+
+<h2 id="summary">Summary</h2>
+
+<p>In this work an approximate Bayesian approach for Deep Learning is
 compared with a conventional approach, all within a context of Active
 Learning. The conventional approach is based on the optimization of a
 loss function, which results in a single point estimate with no
 measure of uncertainty. An approximate Bayesian method is used for
 computational feasibility.</p>
+
+<div class="row mt-3">
+<div class="col-sm-1 mt-3 mt-md-0">
+</div>
+<div class="col-sm-10 mt-3 mt-md-0">
+    <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/blogimg/vbactive/vbactive-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/blogimg/vbactive/vbactive-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/blogimg/vbactive/vbactive-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/blogimg/vbactive/vbactive.png" data-zoomable="">
+
+  </picture>
+
+</figure>
+
+    Variational approximation. Image taken from Humberto's dissertation. 
+</div>
+<div class="col-sm-1 mt-3 mt-md-0">
+</div>
+</div>
+
+<h2 id="contributions">Contributions</h2>
 
 <p>A comparison is made under three datasets in a computer vision setting
 where labeled data points are actively chosen. The results show that
@@ -192,9 +291,20 @@ choosing points under the model uncertainty is better than choosing at
 random. However, there is no evidence that favors a variational
 approximation over the frequentist methodology.</p>
 
-  </article>
+<blockquote>
+  <dl>
+    <dt>Tags</dt>
+    <dd>Variational inference, Machine Learning</dd>
+  </dl>
+</blockquote>
 
-</div>
+
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
 
     </div>
 
@@ -217,49 +327,7 @@ approximation over the frequentist methodology.</p>
 
   </body>
 
-  <!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-
-  <!-- Bootsrap & MDB scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
-
-  
-<!-- Mansory & imagesLoaded -->
-<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
-
-
-  
-
-
-<!-- Medium Zoom JS -->
-<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
-<script src="/assets/js/zoom.js"></script>
-
-
-<!-- Load Common JS -->
-<script src="/assets/js/common.js"></script>
-
-  
-<!-- MathJax -->
-<script type="text/javascript">
-  window.MathJax = {
-    tex: {
-      tags: 'ams'
-    }
-  };
-</script>
-<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
-
-  
-
-
-
-
+  <d-bibliography src="/assets/bibliography/projects.bib">
+  </d-bibliography>
 
 </html>
