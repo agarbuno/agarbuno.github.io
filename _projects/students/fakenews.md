@@ -22,7 +22,7 @@ toc:
     
 bibliography: projects.bib 
 
-img: /assets/img/blogimg/fakenews-cover.png
+img: /assets/img/blogimg/fakenews/fakenews-cover.png
 
 ---
 
