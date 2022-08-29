@@ -14,7 +14,7 @@ toc:
     - name: Summary
     - name: Contributions    
 bibliography: projects.bib 
-img: /assets/img/4.jpg
+img: /assets/img/blogimg/vbactive-cover.pngg
 ---
 
 > Outcome:
