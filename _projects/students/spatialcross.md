@@ -4,7 +4,7 @@ title: Spatial cross-validation.
 description: Ba in Actuarial sciences. 
 importance: 1
 category:
-    - undergraduates
+    - ongoing
 authors: 
     - name: Fernando Minaur
       affiliations: 

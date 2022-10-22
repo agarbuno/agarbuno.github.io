@@ -3,7 +3,7 @@ layout: page
 permalink: /students/
 title: Students
 description: List of projects with students.
-display_categories: [undergraduates, graduates]
+display_categories: [undergraduates, graduates, ongoing]
 nav: false
 horizontal: false
 ---

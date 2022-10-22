@@ -4,7 +4,7 @@ title: Vaccination effect on the elderly population.
 description: Msc in Data Science. 
 importance: 1
 category:
-  - graduates
+  - ongoing
 authors:
   - name: Jose Reyes Garza
     affiliations: 

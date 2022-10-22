@@ -4,7 +4,7 @@ title: Probabilistic programming.
 description: Ba in Applied Mathematics. 
 importance: 1
 category:
-    - undergraduates
+    - ongoing
 authors: 
     - name: Gerardo Pastrana
       affiliations: 
