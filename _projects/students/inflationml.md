@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Inflation forcasts using predictive models.
+title: Inflation forecasts using predictive models.
 description: Msc in Data Science. 
 importance: 1
 category:
@@ -28,7 +28,7 @@ img: /assets/img/blogimg/inflation/inflation-cover.png
 
 
 Different predictive models are applied to a database of several
-timeseries that national include national and international
+time series that national include national and international
 macroeconomic variables. The basis of this research results from the
 desire to push further the work of almost 10 years in inflation
 analysis performed at the Central Bank. 
