@@ -27,11 +27,11 @@ img: /assets/img/blogimg/inflation/inflation-cover.png
 ## Summary
 
 
-Different predictive models are applied to a database of several
-time series that national include national and international
-macroeconomic variables. The basis of this research results from the
-desire to push further the work of almost 10 years in inflation
-analysis performed at the Central Bank. 
+Different predictive models are applied to a collection of several
+time-series of national and international macroeconomic variables. The
+basis of this research results from the desire to push further the
+work of almost 10 years in inflation analysis performed at the Central
+Bank.
 
 <div class="row mt-3">
 <div class="col-sm-1 mt-3 mt-md-0">
