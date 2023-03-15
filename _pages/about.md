@@ -18,20 +18,37 @@ social: true  # includes social icons at the bottom of the page
 
 <div align="justify">
 
-Currently I am the academic director of the Msc in Data Science and an <a
+Currently I am the academic director of the Msc in Data Science and an
+<a
 href="https://faculty.itam.mx/facultad/108727-alfredo-garbuno-inigo">assistant
-professor</a> at Instituto Tecnológico Autónomo de México (ITAM). I teach
-courses for the Department of Statistics and the masters programme in Data
-Science at ITAM.
+professor</a> at Instituto Tecnológico Autónomo de México (ITAM). I
+teach courses for the Department of Statistics and the masters program
+in Data Science at ITAM. I also hold an an appointment at level 1 by
+the National System of Research (SNI) from Mexico's National Council
+of Science and Technology (CONACyT). I am have also been elected as
+member of the Board of Directors for the Latin American Regional
+Section (LARS) of the International Association for Statistical
+Computing (<a href="https://iasc-isi.org/lars-mission/">IASC</a>).
 
-My research interests gravitate around Bayesian inverse problems, data
-assimilation, nonparametric Bayesian methods, stochastic processes, and
-stochastic differential equations. Part of my research has been developed and
+My main line of research is on Uncertainty Quantification (UQ) which
+typically involves computationally expensive computer codes that are
+run on high performance computing environments. My research also deals
+with algorithmic approximations and their theoretical analysis in
+order to properly quantify related uncertainties. Overall my areas of
+expertise are Bayesian inference, Bayesian Inverse problems, Data
+Assimilation, Predictive Modeling, Resampling methods, and, lately,
+Conformal predictions. Part of my research has been developed and
 incorporated on the project of the Climate Modeling Alliance <a
-href="https://clima.caltech.edu/">(CliMA)</a>. My contribution to the project
-regards data assimilation and uncertainty quantification for complex
-simulators. This is a very common endeavor that can be encountered in broad
-engineering applications.
+href="https://clima.caltech.edu/">(CliMA)</a>.
+
+I am particularly proud of incorporating remote computing environments
+for my students at both undergraduate and graduate leves. These
+computing environments are usually set on cloud computing and remote
+servers which are the typical infrastructure available for Big Data
+applications. My opinion is that these skills are a necessity for the
+new generation of statistics oriented and assisted research. I believe
+these particularities are shaping the future of Statistics as a modern
+discipline.
 
 </div>
 
