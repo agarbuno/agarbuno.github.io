@@ -30,6 +30,8 @@ member of the Board of Directors for the Latin American Regional
 Section (LARS) of the International Association for Statistical
 Computing (<a href="https://iasc-isi.org/lars-mission/">IASC</a>).
 
+<br>
+
 My main line of research is on Uncertainty Quantification (UQ) which
 typically involves computationally expensive computer codes that are
 run on high performance computing environments. My research also deals
@@ -40,6 +42,8 @@ Assimilation, Predictive Modeling, Resampling methods, and, lately,
 Conformal predictions. Part of my research has been developed and
 incorporated on the project of the Climate Modeling Alliance <a
 href="https://clima.caltech.edu/">(CliMA)</a>.
+
+<br>
 
 I am particularly proud of incorporating remote computing environments
 for my students at both undergraduate and graduate leves. These
