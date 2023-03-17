@@ -5,5 +5,5 @@ inline: true
 ---
 
 I have been elected as a member of board of directors (BoD) of the
-latin american regional section of the International Association for
-Statistical Computing [IASC](https://iasc-isi.org/lars-mission/).
+latin american regional section (LARS) of the International Association for
+Statistical Computing ([IASC](https://iasc-isi.org/lars-mission/)).
