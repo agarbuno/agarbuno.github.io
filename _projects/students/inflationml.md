@@ -18,7 +18,6 @@ toc:
     - name: Contributions
         
 bibliography: projects.bib 
-img: /assets/img/blogimg/inflation/inflation-cover.png
 ---
 
 > Outcome:

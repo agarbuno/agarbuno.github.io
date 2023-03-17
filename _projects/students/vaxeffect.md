@@ -21,8 +21,6 @@ toc:
               
 bibliography: projects.bib 
 
-img: /assets/img/blogimg/vaccines/vaccines-cover.png
-
 ---
 
 > Outcome:
