@@ -1,9 +1,7 @@
 ---
 layout: post
-date: 2023-03-14
+date: 2023-03-28
 inline: true
 ---
 
-I have been elected as a member of board of directors (BoD) of the
-latin american regional section (LARS) of the International Association for
-Statistical Computing ([IASC](https://iasc-isi.org/lars-mission/)).
+I am part of the local organizing committee of the annual meeting of SIAM Mexican Chapter taking place at ITAM ([more info here](https://siam.itam.mx/).
