@@ -30,7 +30,7 @@ concepts from previous Statistics courses.
 
 The course is intended for the bachelors programs in Applied
 Mathematics, Data Science and Actuarial Sciences at ITAM. Nonetheless,
-I have had the pleasure of teaching to students from other disciplines such 
+I have had the pleasure of teaching students from other disciplines such 
 Economy and Political Science. 
 
 In general, the book of James, et al <d-cite key="James2021"></d-cite> is used as a
@@ -39,8 +39,8 @@ textbook for this course.
 
 ## Final Project
 
-This iteration of the course a predictive competition was included and
-below the leaderboard is showed. 
+This iteration of the course the final project consisted on a
+predictive competition. Below the leaderboard is showed.
 
 <div class="row mt-3">
     <div class="col-sm-1 mt-3 mt-md-0">
