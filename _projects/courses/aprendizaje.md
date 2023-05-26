@@ -31,7 +31,7 @@ concepts from previous Statistics courses.
 The course is intended for the bachelors programs in Applied
 Mathematics, Data Science and Actuarial Sciences at ITAM. Nonetheless,
 I have had the pleasure of teaching students from other disciplines such 
-Economy and Political Science. 
+as Economy and Political Science. 
 
 In general, the book of James, et al <d-cite key="James2021"></d-cite> is used as a
 textbook for this course.
