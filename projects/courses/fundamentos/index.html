@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
   <head>
-    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -46,7 +44,82 @@
 <script src="/assets/js/dark_mode.js"></script>
 
 
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
   </head>
+
+  <d-front-matter>
+    <script async type="text/json">{
+      "title": "Foundations of Statistics.",
+      "description": "Graduate course.",
+      "published": "May 24, 2023",
+      "authors": [
+        
+        {
+          "author": "Dr. Alfredo Garbuno",
+          "authorURL": "",
+          "affiliations": [
+            {
+              "name": "Dept. Statistics",
+              "url": ""
+            }
+          ]
+        },
+        
+        {
+          "author": "Dr. Felipe Gonzalez",
+          "authorURL": "",
+          "affiliations": [
+            {
+              "name": "Industry",
+              "url": ""
+            }
+          ]
+        },
+        
+        {
+          "author": "Msc. Teresa Ortiz",
+          "authorURL": "",
+          "affiliations": [
+            {
+              "name": "Industry",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
 
   <body class="fixed-top-nav ">
 
@@ -170,16 +243,31 @@
 
     <!-- Content -->
 
-    <div class="container mt-5">
-      <div class="post">
+    <div class="post distill">
 
-  <header class="post-header">
-    <h1 class="post-title">Foundations of Statistics.</h1>
-    <p class="post-description">Graduate course.</p>
-  </header>
+      <d-title>
+        <h1>Foundations of Statistics.</h1>
+        <p>Graduate course.</p>
+      </d-title>
 
-  <article>
-    <p>This course aims to introduce to the students the fundamentals of
+      <d-byline></d-byline>
+
+      <d-article>
+        
+        <d-contents>
+          <nav class="l-text figcaption">
+          <h3>Contents</h3>
+            
+            <div><a href="#objectives">Objectives</a></div>
+            
+            
+          </nav>
+        </d-contents>
+        
+
+        <h2 id="objectives">Objectives</h2>
+
+<p>This course aims to introduce to the students the fundamentals of
 statistics through the use of computational tools. We motivate the
 formulation of statistical inference (point estimates, interval
 estimates and hypothesis testing) as part of the endeavors an applied
@@ -192,9 +280,12 @@ in order to motivate the clear distinction of the assumptions under
 this framework.  Later on, we cover the basics of Bayesian inference
 under a decision making process.</p>
 
-<p>The course is followed up by the course in <a href="2_bayesiana.md">bayesian modeling</a> where specifics on probabilistic programming and
-approximate methods are studied in the context of inference and
+<p>The course is followed up by the course in <a href="bayesiana.md">bayesian
+modeling</a> where specifics on probabilistic programming
+and approximate methods are studied in the context of inference and
 machine learning.</p>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
 
 <p>This course co-developed with <a href="https://github.com/tereom" target="_blank" rel="noopener noreferrer">Teresa
 Ortiz</a> and <a href="https://github.com/felipegonzalez" target="_blank" rel="noopener noreferrer">Felipe
@@ -203,10 +294,19 @@ for the Msc in Data Science, Msc in Computational Sciences and Msc in
 Applied Economics. Lecture notes are available <a href="https://fundamentos-est-2021.netlify.app/" target="_blank" rel="noopener noreferrer">here (in
 Spanish)</a>.</p>
 
+<blockquote>
+  <dl>
+    <dt>Tags</dt>
+    <dd>inference, R, tidyverse, resampling, bootstrap</dd>
+  </dl>
+</blockquote>
 
-  </article>
+      </d-article>
 
-</div>
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
 
     </div>
 
@@ -220,7 +320,7 @@ Spanish)</a>.</p>
 
     
     
-    Last updated: May 26, 2023.
+    Last updated: May 30, 2023.
     
   </div>
 </footer>
@@ -229,49 +329,7 @@ Spanish)</a>.</p>
 
   </body>
 
-  <!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-
-  <!-- Bootsrap & MDB scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
-
-  
-<!-- Mansory & imagesLoaded -->
-<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
-
-
-  
-
-
-<!-- Medium Zoom JS -->
-<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
-<script src="/assets/js/zoom.js"></script>
-
-
-<!-- Load Common JS -->
-<script src="/assets/js/common.js"></script>
-
-  
-<!-- MathJax -->
-<script type="text/javascript">
-  window.MathJax = {
-    tex: {
-      tags: 'ams'
-    }
-  };
-</script>
-<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
-
-  
-
-
-
-
+  <d-bibliography src="/assets/bibliography/projects.bib">
+  </d-bibliography>
 
 </html>
