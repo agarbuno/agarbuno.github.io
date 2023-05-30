@@ -40,7 +40,8 @@ textbook for this course.
 ## Final Project
 
 This iteration of the course the final project consisted on a
-predictive competition. Below the leaderboard is showed.
+predictive competition. Below you can find the leaderboard of such
+competition.
 
 <div class="row mt-3">
     <div class="col-sm-1 mt-3 mt-md-0">
