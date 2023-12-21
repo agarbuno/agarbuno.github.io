@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: <a href="https://itam.mx/">ITAM</a>. <a href="http://estadistica.itam.mx/es/1/paginas/acerca-del-departamento-3">Statistics Department</a>. <a href="https://itam-ds.github.io/">Academic Director</a>.
+description: Advanced Analytics Discipline Leader, BBVA.
 
 profile:
   align: right
@@ -18,14 +18,14 @@ social: true  # includes social icons at the bottom of the page
 
 <div align="justify">
 
-Currently I am the academic director of the Msc in Data Science and an
+Currently I am the Advanced Analytics Discipline Leader at BBVA Mexico. Formerly, I was the academic director of the Msc in Data Science and an
 <a
 href="https://faculty.itam.mx/facultad/108727-alfredo-garbuno-inigo">assistant
 professor</a> at Instituto Tecnológico Autónomo de México (ITAM). I
-teach courses for the Department of Statistics and the masters program
-in Data Science at ITAM. I also hold an an appointment at level 1 by
+taught courses for the Department of Statistics and the masters program
+in Data Science at ITAM. I currently hold an appointment at level 1 by
 the National System of Research (SNI) from Mexico's National Council
-of Science and Technology (CONACyT). I am have also been elected as
+of Science and Technology (CONACyT). I have also been elected as
 member of the Board of Directors for the Latin American Regional
 Section (LARS) of the International Association for Statistical
 Computing (<a href="https://iasc-isi.org/lars-mission/">IASC</a>).
@@ -45,12 +45,12 @@ href="https://clima.caltech.edu/">(CliMA)</a>.
 
 <br>
 
-I am particularly proud of incorporating remote computing environments
+I am advocate of modern computing technologies. I am particularly proud of 
+incorporating remote computing environments
 for my students at both undergraduate and graduate leves. These
-computing environments are usually set on cloud computing and remote
-servers which are the typical infrastructure available for Big Data
+computing environments are set in such a way that mimics the typical infrastructure available for Big Data
 applications. My opinion is that these skills are a necessity for the
-new generation of statistics oriented and assisted research. I believe
+new generation of statistics--oriented and --assisted research. I believe
 these particularities are shaping the future of Statistics as a modern
 discipline.
 
@@ -83,20 +83,5 @@ To learn about my teaching experience please visit <a
 href="https://agarbuno.github.io/teaching/">here</a>.
 
 </div>
-
-<hr>
-
-
-## Contact
-
-You can contact me through email: alfredo {dot} garbuno [at] itam (dot) mx. 
-
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-
-Alternatively, you can <!-- Principio del widget de enlace de Calendly -->
-<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/alfredo-garbuno/entrevistas'});return false;">schedule a meeting</a>
-<!-- Final del widget de enlace de Calendly --> with me. 
-
 
 <hr>
