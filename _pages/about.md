@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: Advanced Analytics Discipline Leader, BBVA.
+description: Advanced Analytics.
 
 profile:
   align: right
@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 <div align="justify">
 
-Currently I am the Advanced Analytics Discipline Leader at BBVA Mexico. Formerly, I was the academic director of the Msc in Data Science and an
+I was the academic director of the Msc in Data Science and an
 <a
 href="https://faculty.itam.mx/facultad/108727-alfredo-garbuno-inigo">assistant
 professor</a> at Instituto Tecnológico Autónomo de México (ITAM). I
