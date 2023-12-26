@@ -45,7 +45,7 @@ href="https://clima.caltech.edu/">(CliMA)</a>.
 
 <br>
 
-I am advocate of modern computing technologies. I am particularly proud of 
+I am an advocate of modern computing technologies. I am particularly proud of 
 incorporating remote computing environments
 for my students at both undergraduate and graduate leves. These
 computing environments are set in such a way that mimics the typical infrastructure available for Big Data
